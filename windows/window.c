@@ -2772,7 +2772,7 @@ static LRESULT CALLBACK WndProc(HWND hwnd, UINT message,
           SelectPalette(hdc, pal, true);
           RealizePalette(hdc);
         }
-
+                
         /*
          * We have to be careful about term_paint(). It will
          * set a bunch of character cells to INVALID and then
